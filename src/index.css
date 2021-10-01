@@ -1,0 +1,140 @@
+/* Global
+--------------------------------- */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Side Navigation
+--------------------------------- */
+
+.wishlist:hover .wishlist-count {
+  color: #fff;
+}
+
+/* Offers
+---------------------------------*/
+
+.offers::-webkit-scrollbar {
+  display: none;
+}
+
+.offers {
+  scrollbar-width: none;
+}
+
+/* Orders Table
+---------------------------------*/
+
+.processing {
+  color: #0f3460;
+  background: rgba(15, 52, 96, 0.2);
+}
+
+.delivered {
+  color: #107d34 !important;
+  background: rgba(51, 208, 103, 0.15);
+}
+
+.cancelled {
+  color: #ad0b26 !important;
+  background: rgb(255, 225, 230);
+}
+
+/* React Tooltip 
+--------------------------------- */
+
+.__react_component_tooltip.show {
+  opacity: 1 !important;
+}
+
+.__react_component_tooltip {
+  padding: 8px 16px !important;
+}
+
+/* React Select
+--------------------------------- */
+
+.select-container .inner__control {
+  cursor: pointer !important;
+  color: #000 !important;
+  background: #fff !important;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.select-container .inner__control.inner__control--is-disabled {
+  cursor: not-allowed !important;
+  opacity: 0.6;
+}
+
+.select-container .inner__control--is-focused {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.select-container .inner__control--is-focused.inner__control:hover {
+  border-color: #000;
+}
+
+.select-container.invalid .inner__control {
+  border-color: #d40505;
+  box-shadow: 0 0 0 1px #d40505;
+}
+
+.select-container .inner__placeholder {
+  font-size: 1rem;
+  color: #a0aec0;
+}
+
+.inner__single-value {
+  font-size: 1rem;
+}
+
+.inner__menu-list .inner__option {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.inner__option.inner__option--is-selected {
+  background: #dc004e;
+}
+
+/* React Slick Slider
+---------------------------------*/
+
+.hero-slider .slick-slider {
+  height: 100%;
+}
+
+/* React Toastify
+---------------------------------*/
+.Toastify__toast {
+  font-size: 14px;
+}
+
+/* React Alert
+---------------------------------*/
+
+.MuiDialogTitle-root {
+  padding-bottom: 10px !important;
+}
+
+.MuiTypography-h6 {
+  font-weight: 600 !important;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: #000 !important;
+}
+
+.MuiDialogActions-root {
+  padding-bottom: 16px !important;
+  padding-right: 24px !important;
+}
+
+.MuiButton-textPrimary {
+  color: #fff !important;
+  background: #e8163a !important;
+  border: 1px solid #e8163a !important;
+}
